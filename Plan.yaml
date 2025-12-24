@@ -1,0 +1,20 @@
+Market Data (Live / Historical)
+        |
+        v
+Feature Engine
+(EMA, MACD, ATR, RSI, Structure, Liquidity)
+        |
+        v
+Rule Engine (Your Methodology)
+(Hard filters: trend, volatility, structure)
+        |
+        v
+ML Probability Filter
+(“Should I take THIS valid setup?”)
+        |
+        v
+Signal Engine
+(BUY / SELL / SKIP + SL / TP)
+        |
+        v
+Backtest / Paper Trade / Live Trade
